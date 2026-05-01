@@ -5,7 +5,7 @@ data/raw/*.csv
 !data/raw/.gitkeep
 
 # --- Generated outputs (regenerable) ---
-outputs/charts/*.png
+# outputs/charts/*.png (dibiarkan masuk agar bisa dilihat di repo)
 outputs/charts/*.svg
 outputs/tables/*.csv
 !outputs/charts/.gitkeep
