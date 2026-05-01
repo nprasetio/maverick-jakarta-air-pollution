@@ -1,0 +1,43 @@
+# --- Confidential data (do NOT commit) ---
+data/raw/*.xlsx
+data/raw/*.xls
+data/raw/*.csv
+!data/raw/.gitkeep
+
+# --- Generated outputs (regenerable) ---
+outputs/charts/*.png
+outputs/charts/*.svg
+outputs/tables/*.csv
+!outputs/charts/.gitkeep
+!outputs/tables/.gitkeep
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.jupyter/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# --- Build artifacts ---
+build/
+dist/
+*.egg-info/
