@@ -900,7 +900,7 @@ const TOTAL = 22;
     x: 0.85, y: 5.85, w: 11, h: 0.4,
     fontSize: 14, fontFace: FONT.header, color: COLOR.orange, bold: true, charSpacing: 2, margin: 0,
   });
-  s.addText("Satu-satunya outlet yang masuk Top-5 di KEDUA daftar — peringkat #4 by volume (164 artikel) dan #3 by engagement (avg 97.8). Konsisten produktif sekaligus konsisten beresonansi. Klien wajib menjadikannya Tier-1 VIP partner.", {
+  s.addText("Dua outlet menembus kedua Top-5 — kompas.tv (#4 vol · #3 eng) dan cnnindonesia.com (#2 vol · #4 eng). Tapi kompas.tv unggul sebagai Sweet Spot karena rasio engagement (97.8) hampir 2× CNN (56.5) dengan volume tetap kompetitif. Klien wajib menjadikannya Tier-1 VIP partner.", {
     x: 0.85, y: 6.25, w: 11.85, h: 0.65,
     fontSize: 11, fontFace: FONT.body, color: COLOR.white, margin: 0, valign: "top",
   });
@@ -1109,7 +1109,7 @@ const TOTAL = 22;
 
   outlet(0.6, 1.95, 6.0, 2.45, "TIER-1  ·  THE SWEET SPOT  ·  ★ MUST-HAVE", "kompas.tv",
     "Hybrid Audience  ·  164 artikel  ·  avg 97.8 engagement",
-    "Anchor outlet — satu-satunya yang masuk Top-5 baik volume maupun engagement. ROI tertinggi: jangkauan tayang tinggi + kualitas interaksi terjaga. Ideal untuk Live Index widget & feature stories.");
+    "Anchor outlet — di Top-5 baik volume (#4) maupun engagement (#3), dengan rasio engagement hampir 2× cnnindonesia.com (97.8 vs 56.5). ROI tertinggi: reach tinggi + kualitas interaksi terjaga. Ideal untuk Live Index widget & feature stories eksklusif.");
 
   outlet(6.7, 1.95, 6.0, 2.45, "TIER-2  ·  MASS AWARENESS  ·  FB-SKEWED", "kompas.com",
     "Mass Audience  ·  66 artikel  ·  avg 399.3 engagement",
@@ -1119,9 +1119,9 @@ const TOTAL = 22;
     "Elite Audience  ·  306 artikel  ·  avg 56.5 engagement",
     "Volume tinggi + engagement solid. Audience jurnalis dan aktivis Twitter — sempurna untuk thought-leadership pieces dan distribusi data report kualitas udara.");
 
-  outlet(6.7, 4.55, 6.0, 2.45, "TIER-3  ·  POLICY PRESSURE  ·  TW-SKEWED", "Tempo Network (metro/tekno/data)",
-    "Elite Audience  ·  60+ artikel  ·  avg 50–100 engagement",
-    "Distribusi opini terbesar di Twitter elit. Cocok untuk advokasi kebijakan & framing publik bila kampanye butuh leverage struktural.");
+  outlet(6.7, 4.55, 6.0, 2.45, "TIER-3  ·  POLICY PRESSURE  ·  TW-SKEWED", "Tempo Network (metro.tempo.co)",
+    "Elite Audience  ·  35 artikel  ·  avg 53.0 engagement",
+    "Top-5 by engagement (#5). Distribusi opini terbesar di Twitter elit. Cocok untuk advokasi kebijakan & framing publik bila kampanye butuh leverage struktural.");
 
   addFooter(s, 18, TOTAL, "Task 3 — Recommendation");
 }
